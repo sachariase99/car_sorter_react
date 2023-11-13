@@ -80,7 +80,7 @@ const CarSorter = () => {
             {!selectedModel && (
                 <>
                     <h1 className='text-8xl uppercase font-bold'>Car List</h1>
-                    <label htmlFor="makeSelect" className="text-lg font-semibold mb-2">Select Car Make:</label>
+                    <label htmlFor="makeSelect" className="text-lg font-semibold mb-2">Select Car: </label>
                     <select id="makeSelect" value={selectedMake} onChange={handleMakeChange} className="mb-4">
                         <option value="ac">AC</option>
                         <option value="acura">Acura</option>
@@ -146,7 +146,7 @@ const CarSorter = () => {
                         <option value="nissan">Nissan</option>
                         <option value="noble">Noble</option>
                         <option value="oldsmobile">Oldsmobile</option>
-                        <option value="open">Open</option>
+                        <option value="opel">Opel</option>
                         <option value="pagani">Pagani</option>
                         <option value="panoz">Panoz</option>
                         <option value="peugeot">Peugeot</option>
